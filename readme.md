@@ -14,9 +14,10 @@ Desenvolva uma API que tenha as seguintes rotas:
 
 - [x] POST:
   - Irá receber acima de 100k de linhas então insira no banco em chunks de 10k.
-- [x] GET de produtos vai receber como parâmetro dois dados para paginação:
-  - **row_count**: quantidade de linhas a ser exibida.
-  - **row_skip**: quantidade de linhas a ser ignorada.
+- [x] GET:
+  - Vai receber como parâmetro dois dados para paginação:
+      - **row_count**: quantidade de linhas a ser exibida.
+      - **row_skip**: quantidade de linhas a ser ignorada.
 - [ ] Validação dos campos antes da inserção no banco.
 - [ ] Em caso de erro de validação:
   - Não inserir nenhum dado.
